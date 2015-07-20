@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            
+            <title>Highstock Example</title>
+            
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+                        <script type="text/javascript">
+                var chart;
+                function updateData(x,y)
+                {
+                    //alert("Hello! I am an alert box!!2");
+                    //var series = ('#container').highcharts.chart.series[0];
+                    //series.addPoint([x, y], true, true);
+                    var series = chart.series[0];
+                    series.addPoint([x, y], true, true);
+                
+                }
+            
+            
+                $(function () {
+                  
+                  Highcharts.setOptions({
+                                        global : {
+                                        useUTC : false
+                                        }
+                                        });
+                  
+                  
+                  
+                  
+                  //alert("Hello! I am an alert box!!1");
+                  // Create the chart
+                  $('#container').highcharts('StockChart',{
+                                             chart : {
+                                             
+                                             events :{
+                                                load : function(){
+                                                chart = this;
+                                                }
+                                             },
+                                             
+                                             borderWidth: 1,
+                                             plotBorderWidth: 1,
+                                             marginTop : 0,
+                                             
+                                             pinchType : 'null',
+                                             
+                                             zoomType : 'null',
+                                             
+                                             spacingTop : 0,
+                                    
+                                             
+                                             },
+                                             
+                                             
+                                             xAxis: { //设置X轴
+                                             type: 'datetime',  //X轴为日期时间类型
+                                             tickPixelInterval: 150  //X轴标签间隔
+                                             },
+                                             
+                                             rangeSelector:{
+                                             enabled : false
+                                             },
+                                             
+                                             scrollbar: {
+                                             enabled : false
+                                             },
+                                             
+                                             navigator:{
+                                             enabled :false
+                                             },
+                                             
+                                             
+                                                                                          
+                                             exporting: {
+                                             enabled: false
+                                             },
+                                             
+                                             series : [{
+                                                       name : 'Random data',
+                                                       data : (function () {
+                                                               // generate an array of random data
+                                                               var data = [], time = (new Date()).getTime(), i;
+                                                               
+                                                               for (i = -99; i <= 0; i += 1) {
+                                                               data.push([
+                                                                          time + i * 1000,
+                                                                          Math.round(Math.random() * 100)
+                                                                          ]);
+                                                               }
+                                                               return data;
+                                                               }())
+                                                       }]
+                                             });
+                  
+                  });
+                
+                </script>
+            </head>
+    <body style="margin-top:0px;padding-top:0px">
+        
+        <script src="../../js/highstock.js"></script>
+        <script src="../../js/modules/exporting.js"></script>
+        
+        <div id="container" style="margin-top:0px;height: 300px; min-width: 100px"></div>
+        
+    </body>
+</html>

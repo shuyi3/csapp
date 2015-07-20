@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多空宝</string>
+    <string name="login_label">多空宝</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="log_in">登录</string>
+    <string name="register">注册</string>
+    <string name="title_activity_main">可交易品种</string>
+    <string name="username_error">用户名不能为空</string>
+    <string name="password_error">密码不能为空</string>
+    <string name="network_error">网络连接错误，请联网再试</string>
+    <string name="username_mismatch">用户名或密码错误</string>
+    <string name="menu_settings">当前版本</string>
+    <string name="crash_text">提交错误报告到服务器</string>
+    <string name="crash_title">程序意外崩溃</string>
+    <string name="download_url">http://www.pgyer.com/6wGe</string>
+    
+    <!-- push -->
+    <string name="login">登录</string>
+    <string name="text_btn_init">百度账号绑定</string>
+    <string name="text_btn_init1">更换百度账号</string>
+    <string name="text_btn_on_push">打开Push</string>
+    <string name="text_btn_off_push">关闭Push</string>
+    <string name="log_tip">日志：</string>
+    <string name="clear_log">清除日志</string>
+    <string name="text_btn_rich">富媒体消息</string>
+    <string name="text_btn_initAK">无账号绑定</string>
+    <string name="text_btn_setTags">设置标签</string>
+    <string name="text_btn_delTags">删除标签</string>
+    <string name="text_btn_senior">高级功能</string>
+    <string name="text_btn_set">设置</string>
+    <string name="text_media_title">富媒体消息列表</string>
+    <string name="media">Rich Media</string>
+    <string name="custom_text_hint">用户自定义行为打开的Activity</string>
+    <string name="tags_hint">请输入多个标签，以英文逗号隔开</string>
+    <string name="server_version">1.0.3.3</string>
+
+    <!--pay-->
+    <string name="ok">完成</string>
+    <string name="wechat">微信</string>
+    <string name="alipay">支付宝</string>
+    <string name="upmp">银联</string>
+    <string name="bfb">百度钱包</string>
+    <string name="confirm">确认</string>
+    <string name="yuan">元</string>
+    <string name="donateFailMessage">\u3000\u3000感谢你的爱心，\n但是系统出现了一些错误</string>
+    <string name="validationErrors">错误</string>
+    <string name="notInstalled">未安装支付软件</string>
+    <string name="amount">支付金额</string>
+    <string name="missingImage">图片加载失败</string>
+
+    <!--config settings-->
+    <string name="server_address">120.26.211.229</string>
+    <string name="companyId">3</string>
+
+</resources>

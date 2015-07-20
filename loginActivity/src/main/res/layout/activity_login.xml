@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RootView"
+    android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+		android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="76dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_icon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/top_edittext_bg"
+            android:drawableLeft="@drawable/ic_action_person"
+            android:hint="账号"
+            android:includeFontPadding="true"
+            android:maxLines="1"
+            android:textCursorDrawable="@null"
+            android:textColor="#000"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:padding="3dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ddd"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/bottom_edittext_bg"
+            android:drawableLeft="@drawable/ic_action_accounts"
+            android:hint="密码"
+            android:includeFontPadding="true"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textCursorDrawable="@null"
+            android:textColor="#000"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="5dp"
+            android:padding="3dp" />
+
+    </LinearLayout>
+
+
+        <com.cengalabs.flatui.views.FlatCheckBox
+            android:id="@+id/checkbox_checked_enabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dip"
+            android:background="#0000"
+            android:checked="false"
+            android:text="记住账号"
+            flatui:fl_size="20dip"
+            flatui:fl_theme="@array/blood" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp">
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/button"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:text="@string/log_in"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_textAppearance="fl_light"
+                flatui:fl_theme="@array/blood" />
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/register"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:text="@string/register"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_textAppearance="fl_light"
+                flatui:fl_theme="@array/blood" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+        
+       
+
+    </LinearLayout>
+
+</RelativeLayout>

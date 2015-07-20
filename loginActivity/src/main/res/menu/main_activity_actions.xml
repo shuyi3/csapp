@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+
+    <item
+        android:title="菜单"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_overflow">
+        <menu>
+            <item
+                android:id="@+id/change_account"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="切换账号"/>
+            <item
+                android:id="@+id/menu_settings"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_details"
+        android:title="账户详情"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_back"
+        android:title="返回"
+        android:showAsAction="ifRoom" />
+
+</menu>

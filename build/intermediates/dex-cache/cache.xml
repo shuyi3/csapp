@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/libammsdk-5624e4e33b78d7da553cdaffadbbdece1538bbda.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/thostmduserapi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0780578d52ff94aa0cb2fc7f9841cdc033bc296e">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/thostmduserapi-654d6366903b932ecd81963086f931867a036379.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/alipayutdid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/alipayutdid-cad9a1e6fc991bf37f0a825883c2a34541336e2a.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/gson-2.2.4-fc6f32acc9b1fc94118f52598c39109da499dcf5.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e43e65a638055c027f59283ae92eaa2adf0a14fb">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-b243baf9ca07a61c81beaa3ba50faf71f6476752.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="239f9392d73c78c3b5ae3d976082932b56e54f50">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-71f17841f160483b245e25819a6c4dec61f7836c.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/Auto/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af84ef275fa000b983ba918841ca052ba3da5245">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-2013b2dde46d45d360ad2242ce0e25284efe1c5c.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/libs/paySDk3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7af79c9f778a753f24208e9d68cf9ee1f0977e8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/paySDk3.4.1-14e3df5178363df9df42c230a32bf59fcdba4773.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/android-support-v13-1f53bf0ca6fcbe058cf24d8dcde583bd74284e36.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2208eba0dd1e1634dd808ccff1ae347d5a6a07b">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-2af15f5db01ebd5f052697973a83c8b348966331.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.3.0/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0-b6eea7c75c0eaaec025b5bdbd15aedbc5d03059b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/tableFixHeaders/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="25985ae076be69eac520797e79a2b692f1d25676">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-b0bfaae20666790d3d19a56511c677ecb8abdef4.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/alipayutdid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/alipayutdid-2de79696785b91913fcba2bc8d7f83d69aa1f1c7.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/tableFixHeaders/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fcb0c5c58fa6ffcd6992427b0a6673cdde2c7cea">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-5cc44e6db610cfbdc11eb7bda97ec1feec567224.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-4ddf75528d55481728557e16c83c68c821318cb6.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-9304808bf6466f3ffe6646ec651b092ef1fe7a24.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/libpingpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b92f113c780e473f67ef311525c89249821dfe95">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/libpingpp-032c06425053eb3af88b5a9307d0e9f0002caad0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/libpingpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b92f113c780e473f67ef311525c89249821dfe95">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/libpingpp-cfa8523dcaf6dea81296cf26b9d9cf95bbbb58aa.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f1bc7b3d6c82811652a4d2884eb45f8576a5e9e">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-7156af6015aabc488e98129c3b49f1163e7b6677.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-63a50841c230ece49e588072c8d5d7969eda5805.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b7e626d17adbdaa30518745dfee316e8e58ef7">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-7e65beacb30e565bd9af328ef7c7593d2eab0aa7.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/acra-4.5.0-d3fd5070daeb602eaf5ab0525df8ef4aedab0815.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/okio-1.0.0-7a71ff619ee4afc589cc4fbb1472414db618e431.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/libs/paySDk3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7af79c9f778a753f24208e9d68cf9ee1f0977e8">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/paySDk3.4.1-c23bb06b301ea4f996829c896b27fca5ffa43e58.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/pushservice-4.4.0.71.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9509cfa0c9817d0905fc6f9b0d417a4730884966">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/pushservice-4.4.0.71-300ec45d0a927d437ec97f0bf52ab97d7d1eabfa.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/alipaysdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33d3102886e819ec70b32dd243a2b4d181ac7089">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysdk-a889e9e926d363e9edccc7ba1b5fc934249e95fc.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3-4d56deea5216fb53e3e909e188329447a926c0da.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-83677bfd378a087f206c6ba4b114d05d3ad0bc7e.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/android-support-v13-5cb5ef70c24374c4bc1f0516e1e8f69a963d1fc0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/libammsdk-c40cf988581a8ae9571ee96e58455dc0c41e2d5a.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="794cdc7e62ed3e9f73afd5d9abb97fa30f07ccc9">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/UPPayAssistEx-22b5a7f51514be85de569a1baf0136ed3f1a2fb2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/segmentedConrtolLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="776874b00a06edec3d7a835ee58152252aeec266">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-53207209a59641e0498a40fdc4ff0afbea6f71d2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/segmentedConrtolLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7d1f3339c79e215c689349e474f6470d31c1ed3">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-588d04aed43bc640f3302e5165baa118143e7516.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/libpingpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b92f113c780e473f67ef311525c89249821dfe95">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/libpingpp-66f389af8e40c022d06192924fc1baa57ab94d4b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/thostmduserapi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0780578d52ff94aa0cb2fc7f9841cdc033bc296e">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/thostmduserapi-5f9f1a690011eb75867ce70c597dced9d4915487.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-2.2.0-e29ef367e76660a0078aea6ce01dc715d9b392cc.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3-2cd9b3ec456060516f956db074d4ee9415162a69.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/thostmduserapi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0780578d52ff94aa0cb2fc7f9841cdc033bc296e">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/thostmduserapi-fc9491dfd15f9f46f5611d16083c820459dfe6d3.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/Auto/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e4f5fe4811b125d5982c9749d9f3984c0eb32d1">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-ee61da2655ddfb4d4e24e1e094e033bdfcbaa1a2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/Auto/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b3a648e64b352ca8e4a4a96c528d2ba1cebbd9c6">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-7dbe735f81744246e98ef47f10b660d6d95683e0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/.gradle/caches/modules-2/files-2.1/com.intellij/annotations/12.0/bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539/annotations-12.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/annotations-12.0-850cbe112f7db00c3154c8af61b4356bc6ed0228.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysecsdk-d9ccbd2039771b3d02b93872d8e4a0cb324fc12a.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3-b9aefc7c5f1a416ab9a87c17d589285d0ccc27a6.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/GetuiSdk2.4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a3e0bf969a49b89907d3c57bf9729684f5c0b33">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiSdk2.4.1.0-01fcdf4c11e8451b3aacc17f5f211257aedb4b8e.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-cff2c83ac343ed3ebda8ac901c216fc754e3142d.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ca5e717efcceabb63c6670054190f3a9fc5ebf41">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-9384ab69f214b7deecf8dcc7747dc30425993558.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/libs/paySDk3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7af79c9f778a753f24208e9d68cf9ee1f0977e8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/paySDk3.4.1-44f44183fd00ee0bcd0a55759ef31ac8f29d34ab.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysecsdk-d86dbcb049b37397abe8517f4275f00dc6d72faf.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/android-support-v13-83303f452c7aea94a560f49be263447e4edd2a9e.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/android-support-v13-6be20d37a1ca57efae550df1b537a0b5b04469e3.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f4dc160ae605899fe49c595df562b734da99fcfa">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-bc14080ab5893a179296a85f7387fbf70fab3b0a.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/libammsdk-d8c1ba6ae45c8e492b947b61625f769bbaafae40.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/tableFixHeaders/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8866eabcf86c957b7391e99dad29ca45303b5d83">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-c3f65ad2a2f841c21792af2157c5bb85943f7897.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="794cdc7e62ed3e9f73afd5d9abb97fa30f07ccc9">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/UPPayAssistEx-dd3d94fda9e547ce37a3b50cb991e8bc42c4d9fd.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-6ab0ec50f5d4eee863d4ec4c3eb38feab8021766.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-6a247836f0254f6f16d40320da5336a7ce81022d.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/flatUILib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b11c2b1a59e61f14e03e163ebad06d8363acb24b">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-969cea4aaa8838bfc0a9ba4cf43b64a84db1ed91.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/pushservice-4.3.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2249ba8027ae126b1d2742e0b50eb76148ffc8ba">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/pushservice-4.3.0.4-d1ca82585eb3b2004287683b9985ff1b2bcd9efa.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/acra-4.5.0-4e9681af81336f7b2a071518ec8128460bbcb4b7.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/pushservice-4.4.0.71.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9509cfa0c9817d0905fc6f9b0d417a4730884966">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/pushservice-4.4.0.71-9d91893595caefaabff3388e53384e229ee25e06.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/segmentedConrtolLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a00413f22724bf2b81860d0005a12406c4730017">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-56068f915755077f21a36e354840ff5a3e5094bd.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b448e96dcd817e357d74b26c2fdab09221f2e585">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-1818b2d5211051dd031356254b14c34fa549c1b3.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/alipaysdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33d3102886e819ec70b32dd243a2b4d181ac7089">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysdk-29cfc6c39d34e2f60062acaaab9b8cd6c9f5386a.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="794cdc7e62ed3e9f73afd5d9abb97fa30f07ccc9">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/UPPayAssistEx-27597c7fd15fec52c7473b0dbc33cbf21ce06bf2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysecsdk-de195a037eb3a8a4b34763ff2985947a4a5e32ce.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1655831d6d07e4f72698847022c705eb3e63770">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-fff09b2706f625ca362b3efcf8b4862d53bb2046.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/Auto/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7743c8a3e8c4555d0912b3fc4a803ae29f214a5">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-37bc1af22b5bec3d089be5d28126abaff25ff355.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-3a3cefca9c0b5c2615eb0f77ecf4e8c2afa1ab5f.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/libammsdk-a06bb6957485c1dbea5ad6d426f5591e6edb5007.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/acra-4.5.0-477256818683095cee1977126b6d831875903eeb.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d2571fc460d52f1fc5c03bdcff21165de599d7bf">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-2f1a38abb503a94bb72da694324d84f68d25203e.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/tableFixHeaders/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="633222ffa0fd01392da60ca0cc12f01463e89e1d">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-516e2832efeff4d5a4570cf42fc061f09355d076.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/alipaysdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33d3102886e819ec70b32dd243a2b4d181ac7089">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysdk-c2ea096129031ec2e3cc4b6710eb50a90956ff29.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/libs/paySDk3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7af79c9f778a753f24208e9d68cf9ee1f0977e8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/paySDk3.4.1-476cd53cb771ce7048fcc695b120766a23b2c5b2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="794cdc7e62ed3e9f73afd5d9abb97fa30f07ccc9">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/UPPayAssistEx-8dfca6438ef6f591be1bfe2f304d77aeba415af0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="49b7dcb382ae1aa57bb2a3d6f5ba9f757b133911">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-fd484e7aaec8e9c80235f6da8bff53c932a1c65b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/tableFixHeaders/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56592306a0275d8e6872cbc381f6267caa8b6cac">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-5f8f05acae858df78c96b49ad46f31bc4b0a86c9.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e71cbc55a20ac43b1916513825833637975a3083">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-ad32910ab763480ef7f59f24f7a6739859bb0fb4.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/android-support-v13-ca21f3339c2c5637078b1b4b404535cb61a34baa.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/segmentedConrtolLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5ecd6d73bb29c9062b0436b4c0a842a3cb9dc98">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-3d6defbf65d97b1af3a1cbc62d81cf34bb112336.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/libs/paySDk3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7af79c9f778a753f24208e9d68cf9ee1f0977e8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/paySDk3.4.1-f1a5b9a8892272b977d755c48dd32fee0e44599b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/alipayutdid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/alipayutdid-69a2b667eb839280406a99b7b7e64d0433427c95.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/okio-1.0.0-96202bdd5c082fbec3f2c5987574b01719f055ac.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-d8abb6cb4e3b24dcfa3c4eed733531fadee8a787.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/GetuiSdk2.4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a3e0bf969a49b89907d3c57bf9729684f5c0b33">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiSdk2.4.1.0-e99d4b9b2e381e912cd4535e7e68f0f6627102a0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/app/flatUILib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1364bfec5b3ef595b82cef5eb7f69874d91fb5c8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-5dea4f294ae3e3ffc59292334d4ef286a61b94fe.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-2.2.0-535aff1b6d286b18dd073da957362f42cad026e5.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/flatUILib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="536e4abea50d28dcd8e3fcdef544d187f3f3356f">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-b848e93ad10018233e404aba3e16001955236336.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/pushservice-4.3.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2249ba8027ae126b1d2742e0b50eb76148ffc8ba">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/pushservice-4.3.0.4-d2d8efd1f528f41da9f9df6dc4ca07fdc820e574.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/okio-1.0.0-95b89ac5f55ea19fe731f2914d7b65793a70a3d3.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/acra-4.5.0-8144efa1ed2fe5c31591546f61e6496cb6af87b7.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysecsdk-cb33c09b9ee32ec1e6e931c661692fdbc0fd064b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-3263bad1fcc6cdfa5cb55e3d4a452aa57d3eb9a4.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/GetuiSdk2.4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a3e0bf969a49b89907d3c57bf9729684f5c0b33">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiSdk2.4.1.0-51bf6b08128fcc4fb756d6b450aba10cd8713c18.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-a650a09737dfce8d9ef3a1f3e54badac11ff440d.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ed58828d6d6608ec8e4be2c3976801f5591a12ad">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-8bb5c19c448d1eab468267058a1deadd3366eb23.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/GetuiSdk2.4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a3e0bf969a49b89907d3c57bf9729684f5c0b33">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiSdk2.4.1.0-86756ec62c609a1698ce770d5f3cf980aa9cd8a4.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/thostmduserapi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0780578d52ff94aa0cb2fc7f9841cdc033bc296e">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/thostmduserapi-a63ce00a2f37838d0c6ee182913ffba855175f22.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/gson-2.2.4-0a0513a75fc01030fc17f8b28868f66f123dc31c.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0abb04ff48738002424895e3bf48b5ee3a8194a1">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-64793e33d05233bbc93f976b2a5349a3183a4f66.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/pushservice-4.4.0.71.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9509cfa0c9817d0905fc6f9b0d417a4730884966">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/pushservice-4.4.0.71-2f95007b5f550951c3adee43b25477b46c49b3c2.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/exploded-aar/app/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="010194e37168e7de93ab5d344a942cc8cdb0f09a">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/classes-c707d8a79ac21cdb0d9e8f9be44e8619ad32dc9e.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/classes-c13577edb7772ce853542e658e52da41be60c442.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ea55b06e4000e8fbd18750c000e6060390bc7736">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-9690dd50bd041ebefa6ebca9778def4b364937c4.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-2.2.0-6ffe913bd0a24f86185e72ea45aed3b3aa14660c.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/libpingpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b92f113c780e473f67ef311525c89249821dfe95">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/libpingpp-fe67990cadc61c775de63532fb1a8d3dc3f7a614.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/okio-1.0.0-65200c7df15ee2b44ae38072fcba97b6f84c7839.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/bdwallet_pay_sdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ca15b785e811b7ec8da46b52e66532b6eb2e1350">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-424e04874e227b4719b2ad3c4552b8dd026e2c71.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/alipayutdid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/alipayutdid-fdbecfc1f66fd4185e3c441a4468dca516ba666b.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/libs/alipaysdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33d3102886e819ec70b32dd243a2b4d181ac7089">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-new/app/loginActivity/build/intermediates/pre-dexed/debug/alipaysdk-8934bfae9820a1407c7345778e75860d3df1e94c.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/Auto/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ad1c56ddd387d5120a1527e5a863242ddaa44621">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-0acdbde8bf398af5f6678fa053492f14aefda196.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="80eccf330160a8a3dc9da9f1bdf801f8620f341a">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-5fea7a2ec0e93cb14fbee5ba9bce21d301a92875.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/segmentedConrtolLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6765a1d866c042092af515de4f2e1bf0f11b4e27">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-aa26bd6e878523fefcc21d7c455a32dc1394c8df.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/libs/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-2bda776d7a5d9aeec9715b680c70c7c3b5d081e0.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3-3257f20265ce670ead51ec96b5fff531f63c8f87.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/gson-2.2.4-7e6226d3a5ba3efd28d7cb43853fbc26feaca308.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/exploded-aar/app/flatUILib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a8d0f3fc090116e08954997ac7c81a65a2eac56c">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/classes-33e682e5f2313c31c75abb55082238c7b8c41287.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/okhttp-2.2.0-4b3ad577ba104617d2dc34d638df9c7764afb82f.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/acra-4.5.0-04127ac2f996f51c6b1706be9e3abf75cce985d7.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/thostmduserapi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0780578d52ff94aa0cb2fc7f9841cdc033bc296e">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/thostmduserapi-ab79b21ca2cb6cfbef7aa66e5293855269d92fbe.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-7300ebf55dc117694a1424c32fa54c2009d8389d.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/libs/GetuiSdk2.4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a3e0bf969a49b89907d3c57bf9729684f5c0b33">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiSdk2.4.1.0-b8184bd382171efae3d57f435313a660411ac578.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-dkb/app/loginActivity/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3-38c9578e3271b3be80d4bab0796f2d8a00340226.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/exploded-aar/app/flatUILib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cac39dced962fcf183da3245dbfbfc63bf91ccda">
+        <dex dex="/Users/shuyi/Documents/workspace/dkb-git/csapp/app/loginActivity/build/intermediates/pre-dexed/debug/classes-de54547da6602b599d62c01fa06da07a30512e88.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio-fy/app/loginActivity/build/intermediates/pre-dexed/debug/gson-2.2.4-c7b2d551c4218f6dd6ec494239837c64ec171307.jar" />
+    </item>
+    <item
+        jar="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/exploded-aar/app/mPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="203507ba0b35a308811e009aa8f3a606bb65a0c3">
+        <dex dex="/Users/shuyi/Documents/workspace/androidmvp-androidstudio/app/loginActivity/build/intermediates/pre-dexed/debug/classes-10f918134160876e821464cd5e5309facde313e3.jar" />
+    </item>
+
+</items>

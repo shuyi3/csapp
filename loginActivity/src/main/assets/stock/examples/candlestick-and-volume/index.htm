@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Highstock Example</title>
+
+<script type="text/javascript" src="../../../js/jquery.min.js"></script>
+<script type="text/javascript" src="iso8601.min.js"></script>
+<style type="text/css">
+    ${demo.css}
+</style>
+<script type="text/javascript">
+
+
+        var range = "5m";
+        var majorChart;
+        var autoRefreshTimer=setTimeout(function(){}, 0);
+        function js2nativetickStartLoading() {
+            Android.onStartLoading();
+        }
+        //
+        function js2nativetickFinishedLoading() {
+            Android.onLoadingFinished();
+        }
+
+        function updateLastData(x, y) {
+        	var tmpCandlePoint = majorChart.series[0].points[majorChart.series[0].points.length-1];
+
+        	var maxPrice = (tmpCandlePoint.high > y) ? tmpCandlePoint.high : y;
+        	var minPrice = (tmpCandlePoint.low < y) ? tmpCandlePoint.low : y;
+
+			majorChart.series[0].points[majorChart.series[0].points.length-1].update({high:maxPrice, low:minPrice, close:y});
+
+
+        }
+
+        function initialTable(x, y, title, contractID) {
+            $(function () {
+
+                clearTimeout(autoRefreshTimer);
+                var originalDrawPoints = Highcharts.seriesTypes.column.prototype.drawPoints;
+                Highcharts.seriesTypes.column.prototype.drawPoints = function () {
+                    var merge = Highcharts.merge,
+                            series = this,
+                            chart = this.chart,
+                            points = series.points,
+                            i = points.length;
+
+                    while (i--) {
+                        var candlePoint = chart.series[0].points[i];
+                        var color = (candlePoint.open < candlePoint.close) ? 'red' : 'rgba(0,255,3,1)';
+                        var seriesPointAttr = merge(series.pointAttr);
+
+                        seriesPointAttr[''].fill = color;
+                        seriesPointAttr.hover.fill = Highcharts.Color(color).brighten(0.3).get();
+                        seriesPointAttr.select.fill = color;
+
+                        points[i].pointAttr = seriesPointAttr;
+                    }
+
+                    originalDrawPoints.call(this);
+                }
+
+                // $.ajax({
+                //                        url: 'http://stock2.finance.sina.com.cn/futures/api/json.php/CffexFuturesService.getCffexFuturesMiniKLine15m?symbol=IF1306&callback=?',
+                //                        dataType: 'json',
+                //                        async: false,
+                //                        cache: false,
+                //                        done: function(sData, textStatus, jqXHR){
+                //                            console.log("aaaa");
+                //                        },
+                //                        fail: function(jqXHR, textStatus, errorThrown){
+                //                            alert("Error " + jqXHR.responseText+ " error thrown is " + errorThrown + " status is " + textStatus);
+                //                        },
+                //                        complete: function(r){
+                //                            this.done;
+                //                        }
+                //                    });
+
+                var phpurl = "http://121.40.131.144/index.php?";
+                var ID = contractID;
+                var phpurl = phpurl + "range=" + range + "&ID=" + ID;
+                var xRange;
+                var color5m = "white";
+                var color15m = "white";
+                var color30m = "white";
+                var color60m = "white";
+                var daycolor = "white";
+
+                js2nativetickStartLoading();
+                $.getJSON(phpurl, function (data) {
+                    // split the data set into ohlc and volum
+
+
+                    if (range == "5m") {
+                        xRange = 30 * 5 * 60 * 1000; // 1 day
+                        data = data.reverse();
+                        color5m = "gray";
+                    } else if (range == "15m") {
+                        xRange = 30 * 15 * 60 * 1000; // 1 day
+                        data = data.reverse();
+                        color15m = "gray";
+                    } else if (range == "30m") {
+                        xRange = 30 * 30 * 60 * 1000; // 1 day
+                        data = data.reverse();
+                        color30m = "gray";
+                    } else if (range == "60m") {
+                        xRange = 30 * 60 * 60 * 1000; // 1 day
+                        data = data.reverse();
+                        color60m = "gray";
+                    } else if (range == "day") {
+                        xRange = 30 * 24 * 3600 * 1000; // 1 day
+                        daycolor = "gray";
+                    }
+
+                    var ohlc = [],
+                            volume = [],
+                            dataLength = data.length,
+
+                    // set the allowed units for data grouping
+
+
+                            i = 0;
+
+                    for (i; i < dataLength; i += 1) {
+                        var date;
+                        if (range != "day") {
+                            var res = data[i][0].split(" ");
+                            date = res[0] + "T" + res[1];
+                        } else {
+                            date = data[i][0];
+                        }
+                        var d = Date.parse(date);
+
+                        ohlc.push([
+                            d, // the date
+                            parseFloat(data[i][1]), // open
+                            parseFloat(data[i][2]), // high
+                            parseFloat(data[i][3]), // low
+                            parseFloat(data[i][4]) // close
+                        ]);
+
+                        volume.push([
+                            d, // the date
+                            parseFloat(data[i][5]) // the volume
+                        ]);
+                    }
+
+                    xRange = ohlc[ohlc.length - 1][0] - ohlc[ohlc.length - 30][0];
+
+
+                    // create the chart
+                    $('#container').highcharts('StockChart', {
+
+
+
+
+
+                        chart: {
+                        	events: {
+                            	load: function () {
+                                	majorChart = this;
+                            	}
+                        	},
+                            animation: false,
+
+                            pinchType: 'null',
+
+                            zoomType: 'null',
+
+                            width: x,
+
+                            height: y,
+
+                            backgroundColor: 'rgba(255, 255, 255, 0)'
+
+                        },
+                        title: {
+                            text: title,
+
+                            align: 'right'
+                        },
+
+                        yAxis: [{
+                            labels: {
+                                align: 'left',
+                                x: 3
+                            },
+                            height: '80%',
+                            lineWidth: 1,
+                            opposite: false
+                        }, {
+                            labels: {
+                                align: 'left',
+                                x: 3
+                            },
+                            top: '80%',
+                            height: '20%',
+                            offset: 0,
+                            lineWidth: 1,
+                            opposite: false
+                        }],
+
+                        xAxis: {
+                            range: xRange,
+                            dateTimeLabelFormats:{
+                                second: '%H:%M:%S',
+                                minute: '%H:%M',
+                                hour: '%H:%M',
+                                day: '%m-%d',
+                                week: '%m-%d',
+                                month: '%y-%m',
+                                year: '%Y'
+                            }
+                        },
+
+
+                        rangeSelector: {
+                            enabled: false
+                        },
+
+                        scrollbar: {
+                            enabled: false
+                        },
+
+                        navigator: {
+                            series:{
+                                data:[]
+                            },
+                            enabled:true,
+                            height: 25,
+                            margin: 4,
+                            xAxis: {
+
+                                dateTimeLabelFormats:{
+                                    second: '%H:%M:%S',
+                                    minute: '%H:%M',
+                                    hour: '%H:%M',
+                                    day: '%m-%d',
+                                    week: '%m-%d',
+                                    month: '%y-%m',
+                                    year: '%Y'
+                                }
+                            }
+                        },
+
+                        credits: {
+                            enabled: false
+                        },
+
+
+                        labels: {
+                            enabled: false
+                        },
+
+                        tooltip: {
+                            crosshairs: false
+                        },
+
+                        series: [{
+                            type: 'candlestick',
+                            name: contractID,
+                            data: ohlc
+
+                        }, {
+                            type: 'column',
+                            name: '成交量',
+                            data: volume,
+                            yAxis: 1,
+                            turboThreshold: Number.MAX_VALUE
+                        }],
+
+                        plotOptions: {
+                            candlestick: {
+                                lineColor: 'rgba(0,255,3,1)',
+                                upLineColor: 'red',
+                                color: 'rgba(0,255,3,1)',
+                                upColor: 'rgba(100,100,100,0)'
+                            }
+                        },
+
+                        tooltip: {
+                            valueDecimals: 2,
+                            formatter: function () {
+
+
+                                /*
+                                 * tooltip formatter function
+                                 *
+                                 */
+
+                                var s = '';
+
+//                                    if (chartGlobalOptions.range.indexOf("m") >= 0) {
+//
+//                                        s += '<b>' + Highcharts.dateFormat('%b %e, %Y', this.x) + '</b><br />';
+//
+//                                    } else {
+//
+                                testdata = Highcharts.dateFormat('%b', this.x);
+                                var chiDate = '';
+                                if (testdata == 'Jan') {
+                                    chiDate = '一月';
+                                } else if (testdata == 'Feb') {
+                                    chiDate = '二月';
+                                } else if (testdata == 'Mar') {
+                                    chiDate = '三月';
+                                } else if (testdata == 'Apr') {
+                                    chiDate = '四月';
+                                } else if (testdata == 'May') {
+                                    chiDate = '五月';
+                                } else if (testdata == 'Jun') {
+                                    chiDate = '六月';
+                                } else if (testdata == 'Jul') {
+                                    chiDate = '七月';
+                                } else if (testdata == 'Aug') {
+                                    chiDate = '八月';
+                                } else if (testdata == 'Sep') {
+                                    chiDate = '九月';
+                                } else if (testdata == 'Oct') {
+                                    chiDate = '十月';
+                                } else if (testdata == 'Nov') {
+                                    chiDate = '十一';
+                                } else if (testdata == 'Dec') {
+                                    chiDate = '十二月';
+                                }
+                                s += '<b>' + chiDate + Highcharts.dateFormat(' %e, %Y [%H:%M]', this.x) + '</b><br />';
+
+//
+//                                    }
+
+
+                                $.each(this.points, function (i, point) {
+                                    if (point.series.name.indexOf("Volume") >= 0) {
+
+                                        /*
+                                         * if the series is volume, then don't show the decimals
+                                         *
+                                         */
+                                        //s += '<b><span style = "color:' + point.series.color + ';">' + point.series.name + ' </span>' + ' : ' + Highcharts.numberFormat(point.y, 0) + '</b><br />';
+                                    } else if (point.series.type == 'candlestick' || point.series.type == 'ohlc') {
+
+                                        //s += '<b><span style = "color:' + point.series.color + ';">' + point.series.name  + ' : ' + Highcharts.numberFormat(point.point.close, 2) + '</b><br />';
+                                        s += '<span style ="color:' + point.series.color + ';">开盘价</span>: ' + point.point.open +
+                                        '<br/><span style ="color:' + point.series.color + ';">最高价</span>: ' + point.point.high +
+                                        '<br/><span style ="color:' + point.series.color + ';">最低价</span>: ' + point.point.low +
+                                        '<br/><span style ="color:' + point.series.color + ';">收盘价</span>: ' + point.point.close + '<br/>';
+                                    }
+
+                                    else {
+                                        s += '<b><span style = "color:' + point.series.color + ';">' + point.series.name + ' </span>' + ' : ' + Highcharts.numberFormat(point.y, 2) + '</b><br />';
+                                    }
+
+
+                                });
+                                return s;
+
+                            }
+                        },
+
+                        exporting: {
+                            buttons: {
+                                customButton5: {
+                                    align: 'left',
+                                    onclick: function () {
+                                        if (range == "5m") return;
+                                        range = "5m";
+                                        initialTable(x, y, title, contractID);
+                                    },
+                                    text: '5m',
+                                    theme: {
+                                        fill: color5m
+                                    },
+                                    align: 'left'
+
+                                },
+                                customButton15: {
+                                    align: 'left',
+                                    onclick: function () {
+                                        if (range == "15m") return;
+                                        range = "15m";
+                                        initialTable(x, y, title, contractID);
+                                    },
+                                    text: '15m',
+                                    theme: {
+                                        fill: color15m
+                                    },
+                                    align: 'left'
+                                },
+                                customButton30: {
+                                    align: 'left',
+                                    onclick: function () {
+                                        if (range == "30m") return;
+                                        range = "30m";
+                                        initialTable(x, y, title, contractID);
+                                    },
+                                    text: '30m',
+                                    theme: {
+                                        fill: color30m
+                                    },
+                                    align: 'left'
+                                },
+                                customButton60: {
+                                    align: 'left',
+                                    onclick: function () {
+                                        if (range == "60m") return;
+                                        range = "60m";
+                                        initialTable(x, y, title, contractID);
+                                    },
+                                    text: '60m',
+                                    theme: {
+                                        fill: color60m
+                                    },
+                                    align: 'left'
+                                },
+                                customButtonday: {
+                                    align: 'left',
+                                    onclick: function () {
+                                        if (range == "day") return;
+                                        range = "day";
+                                        initialTable(x, y, title, contractID);
+                                    },
+                                    text: '日',
+                                    theme: {
+                                        fill: daycolor
+                                    },
+                                    align: 'left'
+                                },
+                                contextButton: {
+                                    enabled: false
+                                }
+                            }
+                        }
+                    });
+					var timeoutTimer = 5;
+					if (range == "5m") {
+                        timeoutTimer = 5;
+                    } else if (range == "15m") {
+                        timeoutTimer = 15;
+                    } else if (range == "30m") {
+                        timeoutTimer = 30;
+                    } else if (range == "60m") {
+                        timeoutTimer = 60;
+                    } else if (range == "day") {
+                        timeoutTimer = 24*60;
+                    }
+                    autoRefreshTimer = setTimeout(function(){ initialTable(x,y,title,contractID);}, timeoutTimer*60*1000);
+                    js2nativetickFinishedLoading();
+                });
+            });
+        }
+    </script>
+</head>
+<body style="margin:0px;background-color:rgba(255, 255, 255, 0);-webkit-transform: translate3d(0,0,0)">
+
+<script src="../../js/highstock.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+<script src="../../js/themes/gray.js"></script>
+<div id="container" style="margin-top:0px;-webkit-transform: translate3d(0,0,0)"></div>
+</body>
+</html>

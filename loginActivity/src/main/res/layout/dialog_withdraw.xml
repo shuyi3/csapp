@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:flatui="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="提现金额"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:gravity="center_vertical"
+            android:includeFontPadding="true"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            android:textColor="#000"
+            flatui:fl_fieldStyle="fl_box"
+            flatui:fl_theme="@array/snow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="提现方式"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/channel_spinner"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="*提现账户同充值账户"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/withdrawal_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:gravity="center_vertical"
+            android:includeFontPadding="true"
+            android:maxLines="1"
+            android:textCursorDrawable="@null"
+            flatui:fl_fieldStyle="fl_box"
+            android:textColor="#000"
+            flatui:fl_theme="@array/snow"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="开户银行(仅限银联用户)"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/deposit_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:textCursorDrawable="@null"
+        flatui:fl_fieldStyle="fl_box"
+        android:textColor="#000"
+        flatui:fl_theme="@array/snow"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone" />
+
+</LinearLayout>

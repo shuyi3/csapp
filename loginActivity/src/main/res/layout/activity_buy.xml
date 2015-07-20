@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TX_rootView"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#545454">
+
+    <!--
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:weightSum = "2">
+        
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:text="可用资金:"
+              android:textSize="10sp"
+              android:layout_weight="1" />
+
+          
+   
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="可开数量(涨/跌):"
+        android:textSize="10sp"
+         android:orientation="vertical"
+                 android:layout_weight="1"
+         
+          />
+
+   
+        
+    </LinearLayout>
+
+  
+
+     
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/image_button_1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:background="@drawable/btn_default_holo_dark">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/open_pos_button"
+                    android:layout_width="31dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/flat_selector_red"
+                    android:text="0"
+                    android:textSize="13sp"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vertical_divider1"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/image_textview1"
+                android:background="#f6f6f6"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                android:id="@+id/image_textview1"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="多平"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/image_button_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/image_textview1"
+                android:layout_alignBottom="@+id/image_textview1"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="0.00"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/image_button_2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:paddingTop="10dp"
+            android:background="@drawable/btn_default_holo_dark">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/close_position_button"
+                    android:layout_width="31dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/flat_selector_green"
+                    android:text="0"
+                    android:textSize="13sp"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vertical_divider2"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/image_textview2"
+                android:background="#f6f6f6"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                android:id="@+id/image_textview2"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="空平"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/image_button_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/image_textview2"
+                android:layout_alignBottom="@+id/image_textview2"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="0.00"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="55dp"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="数量"
+                    android:maxLines="1" />
+
+                <com.csapp.mvp.dkb.customwidegts.IntegerNumberPicker
+                    android:id="@+id/quantityPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal" >
+                </com.csapp.mvp.dkb.customwidegts.IntegerNumberPicker>
+            </LinearLayout>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="止盈止损"
+                android:id="@+id/switch1"
+                android:checked="false"
+                android:layout_marginLeft="7dp"
+                android:textOn="开启"
+                android:textOff="关闭"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ToggleButton
+                    android:id="@+id/stopProfit"
+                    android:layout_width="95dp"
+                    android:layout_height="45dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textOff=""
+                    android:background="@drawable/btn_toggle_holo_dark" />
+
+                <ToggleButton
+                    android:id="@+id/stopLoss"
+                    android:layout_width="95dp"
+                    android:layout_height="45dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textOff=""
+                    android:background="@drawable/btn_toggle_holo_dark"
+                    android:checked="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.77"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/upButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="   涨:0.0"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_textAppearance="fl_light"
+                    flatui:fl_theme="@array/sea" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/red_arrow" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/downButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="   跌:0.0"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_textAppearance="fl_light"
+                    flatui:fl_theme="@array/sea" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/green_arrow" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+include ':flatUILib', ':Auto', ':volley', ':volley', 'volley'
+include ':mPChartLib'
+include ':segmentedConrtolLib'
+include ':tableFixHeaders'
+include ':library'
+include ':loginActivity'
+include ':bdwallet_pay_sdk'

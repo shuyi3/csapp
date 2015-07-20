@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="注册账户"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="用户姓名"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="5dp" />
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/realname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        flatui:fl_fieldStyle="fl_box"
+        flatui:fl_theme="@array/snow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="账户密码"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        flatui:fl_fieldStyle="fl_box"
+        flatui:fl_theme="@array/snow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="密码确认"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/retype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        flatui:fl_fieldStyle="fl_box"
+        flatui:fl_theme="@array/snow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="联系电话"
+        android:id="@+id/textView7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        flatui:fl_fieldStyle="fl_box"
+        flatui:fl_theme="@array/snow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="手机验证码"
+        android:id="@+id/textView8"
+        />
+
+    <Button
+        android:id="@+id/verification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="点击获取"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/countdown_text" />
+
+    </LinearLayout>
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="true"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        flatui:fl_fieldStyle="fl_box"
+        flatui:fl_theme="@array/snow" />
+
+    <com.cengalabs.flatui.views.FlatButton
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/register"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_textAppearance="fl_light"
+        flatui:fl_theme="@array/blood"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>
+    </ScrollView>

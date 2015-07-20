@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Highstock Example</title>
+
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <script type="text/javascript">
+        var chart;
+
+        function updateData(x, y, shift) {
+            //var series = ('#container').highcharts.chart.series[0];
+            //series.addPoint([x, y], true, true);
+            var series = chart.series[0];
+
+            if (shift == 0) {
+                series.addPoint([x, y], true, false);
+            } else {
+                series.addPoint([x, y], true, true);
+            }
+
+        }
+
+        function updateLastData(x, y) {
+            var series = chart.series[0];
+            series.data[series.data.length - 1].update({y: y, x: x});
+
+        }
+
+        function updateSubTitle(title) {
+            chart.setTitle({text: chart.options.title.text}, {text: title});
+        }
+        function setData(jsondata) {
+            var series = char.series[0];
+            var arrayFromIOS = JSON.parse(jsondata);
+            series.data = arrayFromIOS;
+        }
+
+        function initialdata(x, y, title, jsondata) {
+
+            $(function () {
+
+                Highcharts.setOptions({
+                    global: {
+                        useUTC: false
+                    }
+                });
+
+                //alert("Hello! I am an alert box!!1");
+                // Create the chart
+                $('#container').highcharts('StockChart', {
+
+                    chart: {
+
+
+                        events: {
+                            load: function () {
+                                chart = this;
+                            }
+                        },
+
+                        animation: false,
+
+                        pinchType: 'null',
+
+                        zoomType: 'null',
+
+                        width: x,
+
+                        height: y
+
+
+                    },
+
+                    yAxis: {
+                        opposite: false
+                    },
+
+
+                    title: {
+                        text: title,
+                        margin: 10
+                    },
+
+                    subtitle: {
+                        text: " ",
+                        floating: true
+                    },
+
+                    xAxis: { //设置X轴
+                        type: 'datetime', //X轴为日期时间类型
+                        tickPixelInterval: 100, //X轴标签间隔
+                        gridLineWidth: 1,
+                        alternateGridColor: null,
+                        minorTickInterval: null,
+                        gridLineColor: 'rgba(255, 255, 255, .1)',
+                        minorGridLineColor: 'rgba(255,255,255,0.07)',
+                    },
+
+                    rangeSelector: {
+                        enabled: false
+                    },
+
+                    scrollbar: {
+                        enabled: false
+                    },
+
+                    navigator: {
+                        enabled: false
+                    },
+
+                    credits: {
+                        enabled: false
+                    },
+
+                    exporting: {
+                        enabled: false
+                    },
+
+                    labels: {
+                        enabled: false
+                    },
+
+                    tooltip: {
+                        crosshairs: false
+                    },
+
+                    series: [{
+                        animation: false,
+                        name: '价格',
+                        data: (function () {
+                            // generate an array of random data
+                            var arrayFromIOS = JSON.parse(jsondata);
+
+                            var data = [],
+                                    time = (new Date()).getTime(),
+                                    i;
+
+                            for (i = -30; i <= 0; i += 1) {
+                                data.push([
+                                    time + i * 1000,
+                                    Math.round(Math.random() * 2000) + 1500
+                                ]);
+                            }
+                            return arrayFromIOS;
+                        }())
+                    }]
+                });
+
+            });
+
+        }
+
+    </script>
+</head>
+
+<body style="margin:0px;background-color:black;-webkit-transform: translate3d(0,0,0)">
+
+<script src="../../js/highstock.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+<script src="../../js/themes/gray.js"></script>
+<div id="container" style="margin-top:0px;-webkit-transform: translate3d(0,0,0);"></div>
+
+</body>
+
+</html>

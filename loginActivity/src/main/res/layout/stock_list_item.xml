@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="40dp"
+    android:padding="4dp"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    
+    <com.cengalabs.flatui.views.FlatButton
+        android:id="@+id/txbutton"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="5dp"
+        android:text="立即交易"
+        android:textSize="14sp"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_textAppearance="fl_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        flatui:fl_theme="@array/sea" />
+
+    <Button
+        android:id="@+id/margin"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/price"
+        android:background="@drawable/grey_background"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="1"
+        android:text="-10.55"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/price"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/txbutton"
+        android:background="@drawable/flat_selector_red"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="1"
+        android:text="-10.55"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text=""
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

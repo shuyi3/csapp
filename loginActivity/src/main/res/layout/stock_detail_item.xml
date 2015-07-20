@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dp"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:text="白银1506"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/float_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="浮动盈亏"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/float_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="0.0"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/volume"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/flat_selector_red"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="1"
+        android:text="-10.55"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <com.cengalabs.flatui.views.FlatButton
+        android:id="@+id/close_out_button"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="5dp"
+        android:text="立即平仓"
+        android:textSize="14sp"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_textAppearance="fl_light"
+        flatui:fl_theme="@array/sea" />
+
+    <!--
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:textColor="@drawable/list_item_text_selector"
+        android:text="详情"
+        android:textSize="20sp" />
+    -->
+
+</LinearLayout>

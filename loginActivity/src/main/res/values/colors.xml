@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_stock">#ff99cc00</color>
+    <color name="red_stock">#ffff4444</color>
+    <color name="text_color_default">#00000C</color>
+    <color name="text_color_inverse">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_row_default_bg">#ffffff</color>
+    <color name="list_row_pressed_bg">#0099cc</color>
+    <color name="list_row_selected_bg">#33b5e5</color>
+    <color name="editText">#AAAAAA</color>
+    <color name="blue">#008dff</color>
+    <color name="gray">#bbbbbb</color>
+</resources>
